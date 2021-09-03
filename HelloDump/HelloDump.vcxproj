@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\crash_function.cpp" />
     <ClCompile Include="src\HelloDump.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\crash_function.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

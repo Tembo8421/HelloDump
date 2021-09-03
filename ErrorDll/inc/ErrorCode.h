@@ -1,10 +1,6 @@
 #pragma once
-#ifdef ErrorCode_EXPORTS
-#define ErrorCode_API __declspec(dllexport)
-#else
-#define ErrorCode_API __declspec(dllimport)
-#endif
 
+#include "ErrorDll_define.h"
 
 class ErrorCode_API ErrorCode
 {
